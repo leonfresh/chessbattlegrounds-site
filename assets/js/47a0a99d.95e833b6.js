@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchessbattlegrounds_site=self.webpackChunkchessbattlegrounds_site||[]).push([[3642],{4469:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"default"}')}}]);

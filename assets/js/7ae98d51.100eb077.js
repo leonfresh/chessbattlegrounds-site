@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchessbattlegrounds_site=self.webpackChunkchessbattlegrounds_site||[]).push([[1775],{6434:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/chessbattlegrounds-site/blog/tags/docusaurus","allTagsPath":"/chessbattlegrounds-site/blog/tags","count":4}')}}]);
