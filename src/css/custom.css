@@ -44,6 +44,7 @@
   aspect-ratio: 16/6;
   background: black !important;
   margin: 0 !important;
+  padding: 10px 0;
   width: 50%;
   display: grid;
   height: 100%;
@@ -54,4 +55,19 @@
   width: 100% !important;
   object-fit: contain;
   height: 100% !important;
+}
+
+@media screen and (max-width: 996px) {
+  .hero {
+    background-size: cover;
+  }
+  .ReactGridGallery_tile {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .ReactGridGallery_tile {
+    width: 33.333%;
+  }
 }
