@@ -9,7 +9,7 @@ const config = {
   title: "Chess Battlegrounds",
   tagline: "First Ever Chess Battle-Royale ",
   url: "https://leonfresh.github.io",
-  baseUrl: "/chessbattlegrounds-site/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
