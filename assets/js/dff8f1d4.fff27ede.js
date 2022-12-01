@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchessbattlegrounds_site=self.webpackChunkchessbattlegrounds_site||[]).push([[6098],{6241:s=>{s.exports=JSON.parse('{"label":"hello","permalink":"/chessbattlegrounds-site/blog/tags/hello","allTagsPath":"/chessbattlegrounds-site/blog/tags","count":2}')}}]);
