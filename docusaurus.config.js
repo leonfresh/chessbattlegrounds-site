@@ -81,7 +81,7 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Hello World",
+            title: "Chess Battlegrounds",
           },
           {
             title: "Community",
