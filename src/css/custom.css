@@ -39,3 +39,19 @@
   height: 300px;
   background-color: black;
 }
+
+.ReactGridGallery_tile {
+  aspect-ratio: 16/6;
+  background: black !important;
+  margin: 0 !important;
+  width: 50%;
+  display: grid;
+  height: 100%;
+  align-items: center;
+}
+.ReactGridGallery_tile img {
+  max-width: 100%;
+  width: 100% !important;
+  object-fit: contain;
+  height: 100% !important;
+}

@@ -67,20 +67,20 @@ const config = {
           alt: "My Site Logo",
           src: "img/logo-icon.svg",
         },
-        items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Tutorial",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
-          },
-        ],
+        // items: [
+        //   {
+        //     type: "doc",
+        //     docId: "intro",
+        //     position: "left",
+        //     label: "Tutorial",
+        //   },
+        //   { to: "/blog", label: "Blog", position: "left" },
+        //   {
+        //     href: "https://github.com/facebook/docusaurus",
+        //     label: "GitHub",
+        //     position: "right",
+        //   },
+        // ],
       },
       footer: {
         style: "dark",
