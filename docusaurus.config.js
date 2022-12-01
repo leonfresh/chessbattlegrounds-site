@@ -81,28 +81,26 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
+            title: "Hello World",
           },
           {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://discord.gg/cweD98aeJp",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/chessbgrounds",
+              },
+              {
+                label: "Facebook",
+                href: "https://facebook.com/chessbgrounds",
+              },
+              {
+                label: "Instagram",
+                href: "https://instagram.com/chessbgrounds",
               },
             ],
           },
@@ -113,14 +111,10 @@ const config = {
                 label: "Blog",
                 to: "/blog",
               },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Chess Battlegrounds. All Rights Reserved.`,
       },
       prism: {
         theme: lightCodeTheme,

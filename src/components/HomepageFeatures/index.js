@@ -1,43 +1,46 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "First ever Battle-Royale for Chess",
+    Svg: require("@site/static/img/first-prize-svgrepo-com.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Ever wanted to see how you fare in an epic battle-royale for Chess? Now
+        you can. Join our Discord to become a Tester or join the mailing list to
+        Pre-Register and get updates to the game.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "Outdraft, Outwit, Outplay",
+    Svg: require("@site/static/img/lightning-bow-svgrepo-com.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Outdraft, Outwit and Outplay your opponents. Every round the board
+        increases in size and you can upgrade your army. Create your dream team
+        and crush your opponents for the #1 spot!
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "24 New Chess Pieces to Enjoy & Master",
+    Svg: require("@site/static/img/chess-svgrepo-com.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        24+ &lbrack;and growing&rbrack; chess pieces to enjoy and master. We
+        focused on making the pieces simple and intuitive to play, yet having
+        fun synergies and combos!
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
