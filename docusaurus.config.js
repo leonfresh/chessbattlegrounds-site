@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Chess Battlegrounds",
   tagline: "First Ever Chess Battle-Royale ",
-  url: "https://github.com",
-  baseUrl: "/chessbattlegrounds-site",
+  url: "https://leonfresh.github.io",
+  baseUrl: "/chessbattlegrounds-site/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
