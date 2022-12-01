@@ -56,6 +56,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         title: "Chess Battlegrounds",
         logo: {
@@ -106,12 +111,12 @@ const config = {
           },
           {
             title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-            ],
+            // items: [
+            //   {
+            //     label: "Blog",
+            //     to: "/blog",
+            //   },
+            // ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Chess Battlegrounds. All Rights Reserved.`,
@@ -123,4 +128,5 @@ const config = {
     }),
 };
 
+// module.exports = config;
 module.exports = config;
