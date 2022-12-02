@@ -7,7 +7,7 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import GalleryCustom from "@site/src/components/GalleryCustom";
 
 import styles from "./index.module.css";
-
+import MailChimp from "../components/MailChimp";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -24,6 +24,31 @@ function HomepageHeader() {
         </div> */}
       </div>
     </header>
+  );
+}
+
+function HomepageSubscribe() {
+  return (
+    <section className="subscribe">
+      <div className="container">
+        <p className="hero__subtitle">
+          <center>
+            <a id="preregister"></a>
+            <b>Pre-register & Subscribe to Game Releases</b>
+          </center>
+        </p>
+        {/* <h1 className="hero__title">{siteConfig.title}</h1>
+      <p className="hero__subtitle">{siteConfig.tagline}</p> */}
+        {/* <div className={styles.buttons}>
+        <Link
+          className="button button--secondary button--lg"
+          to="/docs/intro">
+          Docusaurus Tutorial - 5min ⏱️
+        </Link>
+      </div> */}
+        <MailChimp />
+      </div>
+    </section>
   );
 }
 // import { Gallery } from "react-grid-gallery";
@@ -58,13 +83,14 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`${siteConfig.title}`}
+      description="The First Ever Chess Battle-Royale"
     >
       <HomepageHeader />
       <main>
         <HomepageFeatures />
         <GalleryCustom />
+        <HomepageSubscribe />
       </main>
     </Layout>
   );

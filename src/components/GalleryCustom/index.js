@@ -1,9 +1,9 @@
+import React from "react";
 import { useState } from "react";
 import { Gallery } from "react-grid-gallery";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import { images } from "./images";
-import React from "react";
 
 export default function GalleryCustom() {
   const [index, setIndex] = useState(-1);

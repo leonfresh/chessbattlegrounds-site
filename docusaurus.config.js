@@ -89,12 +89,17 @@ const config = {
             title: "Chess Battlegrounds",
           },
           {
-            title: "Community",
+            title: "Join our Discord to Test the Game & Chat",
             items: [
               {
                 label: "Discord",
                 href: "https://discord.gg/cweD98aeJp",
               },
+            ],
+          },
+          {
+            title: "Socials",
+            items: [
               {
                 label: "Twitter",
                 href: "https://twitter.com/chessbgrounds",
@@ -108,9 +113,6 @@ const config = {
                 href: "https://instagram.com/chessbgrounds",
               },
             ],
-          },
-          {
-            title: "More",
             // items: [
             //   {
             //     label: "Blog",

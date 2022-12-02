@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
+import { Link } from "react-router-dom";
 
 const FeatureList = [
   {
@@ -31,8 +32,9 @@ const FeatureList = [
     description: (
       <>
         Ever wanted to see how you fare in an epic battle-royale for Chess? Now
-        you can. Join our Discord to become a Tester or join the mailing list to
-        Pre-Register and get updates to the game.
+        you can. Join our <a href="https://discord.gg/cweD98aeJp">Discord</a> to
+        become a Tester or <a href="#preregister">Subscribe</a> and get major
+        releases and updates to the game.
       </>
     ),
   },
