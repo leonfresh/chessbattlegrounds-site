@@ -31,8 +31,8 @@ const FeatureList = [
     Svg: require("@site/static/img/3.svg").default,
     description: (
       <>
-        Ever wanted to see how you fare in an epic 8-Player Chess Battle-Royale?
-        Now you can. Join our{" "}
+        Ever wanted to see how you fare in an epic <b>8-Player</b> Chess
+        Battle-Royale? Now you can. Join our{" "}
         <a target="_blank" href="https://discord.gg/cweD98aeJp">
           Discord
         </a>{" "}

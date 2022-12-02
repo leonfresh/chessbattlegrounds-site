@@ -70,6 +70,11 @@ function HomepageSubscribe() {
         </Link>
       </div> */}
         <MailChimp />
+        <center>
+          <p style={{ marginTop: "10px", color: "#aaa" }}>
+            *We will never share your email or spam you.
+          </p>
+        </center>
       </div>
     </section>
   );
