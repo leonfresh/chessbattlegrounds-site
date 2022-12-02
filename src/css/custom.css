@@ -118,6 +118,7 @@ div#ReactGridGallery {
   margin-right: 7px;
   position: relative;
   top: 3px;
+  filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.6));
 }
 
 .hero-buttons {
