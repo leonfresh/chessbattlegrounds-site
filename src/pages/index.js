@@ -1,6 +1,8 @@
 import React from "react";
 import clsx from "clsx";
-import Link from "@docusaurus/Link";
+import { FaDiscord, FaCheck } from "react-icons/fa";
+import { Link } from "react-scroll";
+// import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
@@ -22,6 +24,27 @@ function HomepageHeader() {
             Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div> */}
+        <div className="hero-buttons">
+          <a
+            href="https://discord.gg/cweD98aeJp"
+            target="_blank"
+            className="button button--secondary button--lg mr"
+          >
+            <FaDiscord />
+            Discord
+          </a>
+          <Link
+            to="preregister"
+            className="button button--secondary button--lg"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            <FaCheck />
+            Pre-register
+          </Link>
+        </div>
       </div>
     </header>
   );

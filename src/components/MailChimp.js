@@ -1,4 +1,5 @@
 import React from "react";
+import { FaCheck } from "react-icons/fa";
 import { useFormFields, useMailChimpForm } from "use-mailchimp-form";
 
 // The useFormFields is not necessary. You can use your own form component.
@@ -29,7 +30,10 @@ export default function MailChimp() {
           placeholder="Enter Your Email"
           onChange={handleFieldChange}
         />
-        <button class="button button--secondary button--md">Subscribe</button>
+        <button className="button button--secondary button--lg">
+          <FaCheck />
+          Pre-register
+        </button>
       </form>
       {loading && "submitting"}
       {error && message}

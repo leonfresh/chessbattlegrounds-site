@@ -94,6 +94,7 @@ const config = {
               {
                 label: "Discord",
                 href: "https://discord.gg/cweD98aeJp",
+                target: "_blank",
               },
             ],
           },
