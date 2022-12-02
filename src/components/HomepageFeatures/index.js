@@ -27,12 +27,12 @@ const FeatureList = [
     ),
   },
   {
-    title: "First ever Battle-Royale for Chess",
+    title: "The First Ever Battle-Royale for Chess",
     Svg: require("@site/static/img/3.svg").default,
     description: (
       <>
-        Ever wanted to see how you fare in an epic battle-royale for Chess? Now
-        you can. Join our{" "}
+        Ever wanted to see how you fare in an epic 8-Player Chess Battle-Royale?
+        Now you can. Join our{" "}
         <a target="_blank" href="https://discord.gg/cweD98aeJp">
           Discord
         </a>{" "}
@@ -46,7 +46,7 @@ const FeatureList = [
         >
           Pre&#8209;register
         </Link>{" "}
-        and get major releases and updates to the game.
+        and get major releases and updates to the game!
       </>
     ),
   },

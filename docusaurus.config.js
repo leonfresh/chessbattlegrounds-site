@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Chess Battlegrounds",
-  tagline: "First Ever Chess Battle-Royale ",
+  tagline: "First Ever 8-Player Chess Battle-Royale ",
   url: "https://leonfresh.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
