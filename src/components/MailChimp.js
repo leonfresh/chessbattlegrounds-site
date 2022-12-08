@@ -24,7 +24,6 @@ export default function MailChimp() {
       >
         <input
           id="EMAIL"
-          autoFocus
           type="email"
           value={fields.EMAIL}
           placeholder="Enter Your Email"
